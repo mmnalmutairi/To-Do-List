@@ -1,4 +1,5 @@
 import taskMainList from "../../List/TaskMainList";
+import { MdDeleteForeverStyle } from "../Styles";
 
 const deleteButton = (props) => {
 
@@ -8,7 +9,7 @@ const deleteButton = (props) => {
     }
     return (
         <div>
-            <button onClick={handleDelete}>Delete</button>
+            <MdDeleteForeverStyle size="2em" onClick={handleDelete}>Delete</MdDeleteForeverStyle>
         </div>
     )
 }

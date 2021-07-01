@@ -6,8 +6,8 @@ import { observer } from 'mobx-react';
 const TasksList = () => {
     const datalist = taskMainList.data.map((task) => <TaskItem task={task} tasktitle={task.title} taskId={task.id} />);
     return (
-        <div>
-            <ul> {datalist} </ul>
+        <div className="todo-list">
+            {datalist}
         </div>
     );
 };

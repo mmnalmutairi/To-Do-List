@@ -9,8 +9,8 @@ const AddButton = () => {
     const closeModal = () => setIsOpen(false);
 
     return (
-        <div>
-            <button onClick={openModal}>Add new task</button>
+        <div >
+            <button className="add-task" onClick={openModal}>Add new task</button>
             <AddModal
                 isOpen={isOpen}
                 closeModal={closeModal}
