@@ -1,6 +1,4 @@
 import './App.css';
-// import list from "./List/List";
-import list from "./list";
 import TasksList from './components/TasksList';
 import AddButton from './components/buttons/AddButton';
 
